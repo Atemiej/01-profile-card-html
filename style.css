@@ -1,0 +1,76 @@
+body {
+  background-color: #d0fff1;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #b0b0b0;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 2em 2em 1.5em 2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  overflow: hidden; /* Ensure image cropping stays inside card */
+}
+
+.card img {
+  display: block;
+  margin: 0 auto 1em auto;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #eee;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #014421; /* dark green */
+}
+
+h2 {
+  font-size: 1.8em;
+  text-align: center;
+  color: #32cd32; /* light green */
+}
+
+h3 {
+  color: #b0b0b0; /* light grey */
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.2em 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  align-items: center;
+}
+
+.card ul li a {
+  text-decoration: none;
+  color: #014421;
+  font-weight: 500;
+  padding: 0.4em 1em;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.card ul li a:hover {
+  background: #d0fff1;
+}
+
+.card ul li a:visited {
+  color: #7532cd5b; /* light green */
+}
